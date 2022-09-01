@@ -4,18 +4,28 @@
   box-sizing: border-box;
 }
 
+#app {
+  padding: 2rem;
+}
+
 ul,
 ol,
 menu {
   list-style: none;
 }
 
-#app {
+.container {
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+  background-image: linear-gradient(to bottom, #aadd31 0px, #dde1e6 100%);
+  padding: 2rem;
 }
 
 h2 {
-  padding: 2rem 0;
+  padding: 0 0 2rem 0;
+  text-transform: uppercase;
 }
 
 li {
