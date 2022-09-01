@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol,
+menu {
+  list-style: none;
+}
+
+#app {
+  text-align: center;
+}
+
+h2 {
+  padding: 2rem 0;
+}
+
+li {
+  line-height: 30px;
+}
